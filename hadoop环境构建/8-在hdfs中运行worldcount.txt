@@ -1,0 +1,84 @@
+## 在hdfs中创建hadoop目录
+
+## 在hadoop上创建目录
+./bin/hadoop dfs -mkdir /test1
+
+## 上传文件到hadoop hdfs
+./bin/hadoop dfs -put ./input /test1
+
+## 查看目录
+./bin/hadoop dfs -ls /test1
+
+## 测试
+./bin/hadoop jar /usr/local/hadoop/share/hadoop/mapreduce/hadoop-mapreduce-examples-2.9.2.jar grep /test1 testout1 'a[a-z.]+'
+
+## 查看结果
+ ./bin/hadoop fs -cat testout1/*
+
+ ### 结果如下
+ 169	alue
+147	ame
+70	and
+40	are
+39	arated
+33	al
+32	ation
+25	all
+25	ault
+24	an
+21	ames.
+21	ay
+19	ate
+19	alice
+19	allowed.
+19	ank.
+19	ans
+18	at
+16	ations
+14	ache
+13	as
+12	anager
+11	application
+10	applicable
+9	adoop.kms.acl.
+9	ations.
+8	apache.org
+8	agreed
+8	ain
+8	aw
+8	ance
+8	anguage
+7	ach
+7	applications
+6	aximum
+5	acl
+5	alculator
+5	ature
+5	ality
+5	atanode
+5	after
+4	admin
+4	apacity
+4	appings
+4	acls
+4	ack
+4	assignments
+4	accompanying
+4	ab
+4	adata
+4	ault.key.acl.
+3	atanode.protocol.acl
+3	acking
+3	additional
+3	adoop
+3	aterial
+3	ation.
+3	ainers
+3	ax
+3	art
+3	authentication
+3	alues
+3	arn.scheduler.capacity.root.default.acl
+3	amenode.
+3	ation.xsl
+

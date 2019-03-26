@@ -1,0 +1,23 @@
+1.下载解压hadoop包
+
+sudo wget http://mirrors.shu.edu.cn/apache/hadoop/common/hadoop-2.9.2/hadoop-2.9.2.tar.gz
+
+sudo tar zxf hadoop-2.9.2.tar.gz
+
+sudo mv hadoop-2.9.2/* to hadoop (也可以不做，我是为了方便将/usr/hadoop目录直接作为工作目录了)
+
+2.安装完成后执行 sudo gedit hadoop-env.sh ，修改JAVA_HOME目录
+# The java implementation to use.
+export JAVA_HOME=/usr/lib/jvm/java-8-oracle
+
+3.查看版本
+wuxh@ubuntu:/usr/local/hadoop$ ./bin/hadoop version
+显示如下
+Subversion https://git-wip-us.apache.org/repos/asf/hadoop.git -r 826afbeae31ca687bc2f8471dc841b66ed2c6704
+Compiled by ajisaka on 2018-11-13T12:42Z
+Compiled with protoc 2.5.0
+From source with checksum 3a9939967262218aa556c684d107985
+This command was run using /usr/local/hadoop/share/hadoop/common/hadoop-common-2.9.2.jar
+
+
+

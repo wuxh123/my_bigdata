@@ -1,0 +1,5 @@
+# hadoop安装
+## 创建hadoop用户
+sudo useradd -m hadoop -s /bin/bash
+sudo passwd hadoop       --密码 hadoop
+sudo adduser hadoop sudo

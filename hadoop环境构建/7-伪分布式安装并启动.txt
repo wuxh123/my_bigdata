@@ -1,0 +1,50 @@
+## 修改 /usr/local/hadoop/etc/core-site.xml
+<configuration>
+        <property>
+             <name>hadoop.tmp.dir</name>
+             <value>file:/usr/local/hadoop/tmp</value>
+             <description>Abase for other temporary directories.</description>
+        </property>
+        <property>
+             <name>fs.defaultFS</name>
+             <value>hdfs://localhost:9000</value>
+        </property>
+</configuration>
+
+
+## 修改hdfs-site.xml     
+<configuration>
+        <property>
+             <name>dfs.replication</name>
+             <value>1</value>
+        </property>
+        <property>
+             <name>dfs.namenode.name.dir</name>
+             <value>file:/usr/local/hadoop/tmp/dfs/name</value>
+        </property>
+        <property>
+             <name>dfs.datanode.data.dir</name>
+             <value>file:/usr/local/hadoop/tmp/dfs/data</value>
+        </property>
+</configuration>
+
+## 之前忘了给文件夹赋权限
+sudo chmod -R a+w /usr/local/hadoop
+
+## 初始化文件系统，要加上sudo 要不然创建目录初始化不成功.
+./bin/hadoop namenode -format
+
+## 启动hadoop
+./sbin/start-all.sh
+频繁输入密码 启动
+
+## 验证是否成功
+jps
+
+## 解决启动时，输入密码的问题
+cd ~/.ssh/
+ssh-keygen -t rsa
+cat ./id_rsa.pub >> ./authorized_keys
+
+## web打开dadoop
+http://192.168.64.128:50070

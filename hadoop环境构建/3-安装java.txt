@@ -1,0 +1,24 @@
+#这步骤本来详细记录了，但是后来由于某种原因没有保存，所以只凭着记忆写下来，可能会有错误，大体不会差。安装自行百度就行。
+## 添加ppa
+sudo add-apt-repository ppa:webupd8team/java
+sudo apt-get update
+
+## 安装oracle-java-installer
+sudo apt-get install oracle-java8-installer
+
+设置系统默认jdk
+sudo update-java-alternatives -s java-8-oracle
+
+## java安装测试
+java -version
+javac -version
+
+## 执行$sudo gedit ~/.bashrc
+添加如下：
+export JAVA_HOME=/usr/lib/jvm/java-8-oracle
+export JRE_HOME=${JAVA_HOME}/jre  
+export CLASSPATH=.:${JAVA_HOME}/lib:${JRE_HOME}/lib 
+export PATH=${JAVA_HOME}/bin:$PATH
+
+## 生效~/.bashrc文件
+$sudo source ~/.bashrc

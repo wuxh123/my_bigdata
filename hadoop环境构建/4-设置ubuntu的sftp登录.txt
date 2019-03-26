@@ -1,0 +1,16 @@
+1.安装sftp服务
+
+sudo apt-get install openssh-server
+
+2.修改配置文件
+
+vim /etc/ssh/sshd_config
+##下面这行注释掉
+#Subsystem sftp /usr/libexec/openssh/sftp-server
+##后面加入
+Subsystem sftp internal-sftp
+
+找到PermitRootLogin no一行，改为PermitRootLogin yes   让root用户可以登录SFTP（如果没找到，则直接添加）
+
+3.重启sshd服务 
+service ssh restart

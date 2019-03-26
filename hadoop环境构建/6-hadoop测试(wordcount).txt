@@ -1,0 +1,9 @@
+## 命令很简单，不用写说明了
+
+sudo mkdir input
+sudo cp ./etc/hadoop/*.xml ./input
+
+
+./bin/hadoop jar /usr/local/hadoop/share/hadoop/mapreduce/hadoop-mapreduce-examples-2.9.2.jar grep ./input ./output 'a[a-z.]+'
+执行之后，可以在output目录下看到结果
+
