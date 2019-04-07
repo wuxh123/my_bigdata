@@ -8,4 +8,17 @@
 ## 我收集的数学资料
 目前是中间版本，资料不全，不要下载
 
+## 赠品
+线性代数课程
+https://pan.baidu.com/s/1DhL7DvlZO0hyyVPim3PATA
+rteo
+
+高数课程
+https://pan.baidu.com/s/1zucPvtAJ9RJabONCGalNBw
+syjc
+
+概率课程
+https://pan.baidu.com/s/140cdJ2vNdoNx5nukQUdKVA
+zfdm
+
   
