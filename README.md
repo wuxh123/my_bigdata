@@ -17,9 +17,6 @@
   目前为空      https://github.com/wuxh123/my_mapreduce
 ### 测试数据-机器学习。配套例子，直接可运行，文档说明。
 ### 数学知识点，重点总结
-  目前为空
-  
-## 赠品
 线性代数课程
 https://pan.baidu.com/s/1DhL7DvlZO0hyyVPim3PATA
 rteo
