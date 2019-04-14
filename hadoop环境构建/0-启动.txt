@@ -1,3 +1,5 @@
+## ÐéÄâ»úÃÜÂë wuxh wuxh
+
 ## hadoop web url
 http://192.168.64.128:50070
 
