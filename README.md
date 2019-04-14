@@ -7,15 +7,16 @@
 
 ## 目标
 ### 我会持续更新，看时间，最终目标：
-#### 1.hadoop环境，目前是单机版，适合学习，用来练习，并上传最终版虚拟机。
+### hadoop环境，目前是单机版，适合学习，用来练习，并上传最终版虚拟机。
   hadoop环境、虚拟机目前已OK，https://github.com/wuxh123/hadoop_test  
-#### 2.ambari,hive,yarn，pig的配套例子，文档说明。
-#### 3.kafka，es，spark，mapreduce，配套例子，文档说明。
-#### 4.数据清洗
-  目前内容为空:https://github.com/wuxh123/data_clean
-#### 5.测试数据-机器学习。配套例子，直接可运行，文档说明。
-  
-## 赠品
+### ambari,hive,yarn，pig的配套例子，文档说明。
+### kafka，es，spark，mapreduce，配套例子，文档说明。
+### 数据清洗
+  目前内容为空   https://github.com/wuxh123/data_clean
+### 并行计算
+  目前为空      https://github.com/wuxh123/my_mapreduce
+### 测试数据-机器学习。配套例子，直接可运行，文档说明。
+### 数学知识点，重点总结
 线性代数课程
 https://pan.baidu.com/s/1DhL7DvlZO0hyyVPim3PATA
 rteo
