@@ -1,0 +1,22 @@
+wuxh@ubuntu:/usr/local/hadoop/bin$ ./hadoop fs -ls /             ---查看目录
+wuxh@ubuntu:/usr/local/hadoop/bin$ ./hadoop fs -ls testoutput1   --查看目录
+ls: `testoutput1': No such file or directory
+wuxh@ubuntu:/usr/local/hadoop/bin$ ./hadoop fs -ls /
+Found 3 items
+drwxr-xr-x   - wuxh supergroup          0 2019-03-25 06:23 /test1
+drwxr-xr-x   - wuxh supergroup          0 2019-03-25 06:33 /user
+drwxr-xr-x   - wuxh supergroup          0 2019-03-25 05:48 /usr
+wuxh@ubuntu:/usr/local/hadoop/bin$ ./hadoop fs -ls /usr/hadoop
+Found 1 items
+drwxr-xr-x   - wuxh supergroup          0 2019-03-25 06:00 /usr/hadoop/input
+wuxh@ubuntu:/usr/local/hadoop/bin$ ./hadoop fs -ls /usr/hadoop/input
+Found 8 items
+-rw-r--r--   1 wuxh supergroup       7861 2019-03-25 06:00 /usr/hadoop/input/capacity-scheduler.xml
+-rw-r--r--   1 wuxh supergroup        774 2019-03-25 06:00 /usr/hadoop/input/core-site.xml
+-rw-r--r--   1 wuxh supergroup      10206 2019-03-25 06:00 /usr/hadoop/input/hadoop-policy.xml
+-rw-r--r--   1 wuxh supergroup        775 2019-03-25 06:00 /usr/hadoop/input/hdfs-site.xml
+-rw-r--r--   1 wuxh supergroup        620 2019-03-25 06:00 /usr/hadoop/input/httpfs-site.xml
+-rw-r--r--   1 wuxh supergroup       3518 2019-03-25 06:00 /usr/hadoop/input/kms-acls.xml
+-rw-r--r--   1 wuxh supergroup       5939 2019-03-25 06:00 /usr/hadoop/input/kms-site.xml
+-rw-r--r--   1 wuxh supergroup        690 2019-03-25 06:00 /usr/hadoop/input/yarn-site.xml
+

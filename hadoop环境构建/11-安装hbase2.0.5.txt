@@ -1,0 +1,10 @@
+## 过程有点曲折，具体看配置
+
+## 启动hbase
+/home/hbase/hbase-2.0.5/bin$ sudo ./start-hbase.sh
+
+## 停止hbase
+/home/hbase/hbase-2.0.5/bin$ sudo ./stop-hbase.sh
+
+## 进入hbase环境
+wuxh@ubuntu:/home/hbase/hbase-2.0.5/bin$ sudo ./hbase shell
