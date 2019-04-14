@@ -12,8 +12,12 @@
 #### 2.ambari,hive,yarn，pig的配套例子，文档说明。
 #### 3.kafka，es，spark，mapreduce，配套例子，文档说明。
 #### 4.数据清洗
-  目前内容为空:https://github.com/wuxh123/data_clean
+  目前内容为空   https://github.com/wuxh123/data_clean
+#### 5.并行计算
+  目前为空      https://github.com/wuxh123/my_mapreduce
 #### 5.测试数据-机器学习。配套例子，直接可运行，文档说明。
+#### 6.数学知识点，重点总结
+  目前为空
   
 ## 赠品
 线性代数课程
