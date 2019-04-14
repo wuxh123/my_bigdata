@@ -1,5 +1,0 @@
-## hadoop web url
-http://192.168.64.128:50070
-
-## Æô¶¯hadoop
-./sbin/start-all.sh
