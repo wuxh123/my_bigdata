@@ -6,11 +6,11 @@
 ### hadoop环境，目前是单机版，适合学习，用来练习，并上传最终版虚拟机。
   hbase环境、虚拟机目前已OK，https://github.com/wuxh123/hadoop_test  
   
-### ambari,hive,yarn，pig的配套例子，文档说明。
-  hadoop开发(60%)，未上传  https://github.com/wuxh123/hadoop_sample
+### hadoop开发。
+  hadoop开发 https://github.com/wuxh123/hadoop_sample
   
 ### 深度学习-机器学习,配套例子，有测试数据直接可运行。
-  机器学习(50%)     https://github.com/wuxh123/my_machinelearning
+  机器学习  https://github.com/wuxh123/my_machinelearning
   
 ### kafka，es，spark，mapreduce，配套例子，文档说明。
   hadoop环境，未上传  https://github.com/wuxh123/hadoop_env
