@@ -9,7 +9,7 @@
 ### ambari,hive,yarn，pig的配套例子，文档说明。
   hadoop开发(60%)，未上传  https://github.com/wuxh123/hadoop_sample
   
-### 测试数据-机器学习。配套例子，直接可运行，文档说明。
+### 深度学习-机器学习,配套例子，有测试数据直接可运行。
   机器学习(50%)     https://github.com/wuxh123/my_machinelearning
   
 ### kafka，es，spark，mapreduce，配套例子，文档说明。
