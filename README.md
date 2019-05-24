@@ -13,7 +13,7 @@
   机器学习  https://github.com/wuxh123/my_machinelearning
   
 ### kafka，es，spark，mapreduce，配套例子，文档说明。
-  hadoop环境，未上传  https://github.com/wuxh123/hadoop_env
+  hadoop环境，https://pan.baidu.com/s/11DZdK7gwAJGhP0upTQxNgw 95n4
   
 ### 数据清洗
   目前内容为空   https://github.com/wuxh123/data_clean
