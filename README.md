@@ -22,6 +22,7 @@
 ### 并行计算
   目前为空      https://github.com/wuxh123/my_mapreduce
   
+# 资料
 ### 数学知识点，重点总结
 线性代数课程
 https://pan.baidu.com/s/1DhL7DvlZO0hyyVPim3PATA
