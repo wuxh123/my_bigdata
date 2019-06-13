@@ -2,7 +2,7 @@
   练武不练功，到头一场空！
   我从12年开始想学数学，结果已经扔了十多年了，没学下来。14年又想学数学，学了一部分。17-18年终于把本科阶段数学又学了一遍，今年再学一遍，顺便实现一些算法。
   
-## 目标
+# 已完成
 ### hadoop环境，目前是单机版，适合学习，用来练习，并上传最终版虚拟机。
   hbase环境、虚拟机目前已OK，https://github.com/wuxh123/hadoop_test  
   
@@ -15,6 +15,7 @@
 ### kafka，es，spark，mapreduce，配套例子，文档说明。
   hadoop环境，https://pan.baidu.com/s/11DZdK7gwAJGhP0upTQxNgw 95n4
   
+# 开发中
 ### 数据清洗
   目前内容为空   https://github.com/wuxh123/data_clean
   
